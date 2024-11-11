@@ -3,7 +3,7 @@ import unittest
 from difflib import SequenceMatcher, unified_diff
 from crypt import *
 from student_code import decrypt  # Remplacer par le nom de la fonction de déchiffrement
-
+import time
 
 def similarity_ratio(str1, str2):
     """
